@@ -7,6 +7,8 @@ Questions 1-4 can be found in saarthi-rasa branch and it contains various yaml f
 Image chatbot.png contains screenshot of primitive output after training NLU with new intents, rules, stories.
 Image latest.png contains screenshot of best possible outputs after training with newly added intents(mood_gratitude,service_help), rules(welcome,service available etc),stories(service related story) and entities(services_list).
 
+uniquedictionary.py contains complete code for question 6.
+
 passcheck.py contains complete code for question 7.
 
 dictionaryclub.py contains complete code for question 8.
