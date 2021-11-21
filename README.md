@@ -8,3 +8,5 @@ Image chatbot.png contains screenshot of primitive output after training NLU wit
 Image latest.png contains screenshot of best possible outputs after training with newly added intents(mood_gratitude,service_help), rules(welcome,service available etc),stories(service related story) and entities(services_list).
 
 passcheck.py contains complete code for question 7.
+
+dictionaryclub.py contains complete code for question 8.
