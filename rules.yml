@@ -1,0 +1,23 @@
+version: "2.0"
+
+rules:
+  
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+  
+- rule: Say 'Welcome' anytime the user shows gratitude
+  steps:
+  - intent: mood_gratitude
+  - action: utter_welcome
+  
+- rule: Say 'Service available' anytime the user asks service related questions
+  steps:
+  - intent: service_help
+  - action: utter_yesservice

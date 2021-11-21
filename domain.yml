@@ -1,0 +1,47 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - service_help
+  - mood_gratitude
+  - get_contact
+  
+entities:
+  - service_list
+  - name
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you? How can I help you today?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Glad you're happy"
+
+  utter_goodbye:
+  - text: "Bye,see you again"
+  
+  utter_welcome:
+  - text: "You're welcome"
+
+  utter_iamabot:
+  - text: "I am a bot for Saarthi,I provide XYZ services for XYZ sized companies. "
+  
+  utter_yesservice:
+  - text: "Yes I can help with this service."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
